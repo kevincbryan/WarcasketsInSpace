@@ -20,5 +20,10 @@
 	<loadAfter>
 	</loadAfter>
 	<packageId>OrcAndHat.WarcasketsInSpace</packageId>
-	<description>Makes Warcaskets count as EVA Suits for Save Our Ship 2. This should work for all Warcasket mods based on VFE Pirates.</description>
+	<description>Space Piracy... this time in Space!
+    
+    This mod adjusts all Warcaskets to count as EVA suits for Save Our Ship 2, as well as upping their cold resistance, letting your entombed pirates kill in the depths of space!
+    
+    This should work with all mods using Warcaskets, even additional Warcaskets not part of Vanilla Expanded - Pirates
+    </description>
 </ModMetaData>
