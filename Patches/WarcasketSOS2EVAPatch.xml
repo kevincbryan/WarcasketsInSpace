@@ -10,8 +10,8 @@
 		</mods>
 			<match Class="PatchOperationSequence">
 				<operations>			
-					<!--Trying to change Warcasket Helmets -->
-					<!--Basic Helmet -->
+					<!--Updating EVA and Insulation_Cold for all Warcaskets -->
+					
 
 					
 					<li Class="PatchOperationAdd">
@@ -33,4 +33,29 @@
 			</match>
 		</match>
 	</Operation>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Pirates</li>
+		</mods>
+        <match Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship 2</li>
+		</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				<!--Changing Shock Warcasket Range-->
+				<li Class="PatchOperationReplace">
+						<xpath>Defs/VFECore.Abilities.AbilityDef[defName = "VFEP_BlastOff"]/modExtensions/li[@Class="VFEPirates.BlastOffExtension"]/maxLaunchDistance</xpath>
+						<value>
+							<maxLaunchDistance>200</maxLaunchDistance>
+						</value>
+					</li>
+
+				</operations>
+			</match>
+		</match>
+	</Operation>
+
 </Patch>
