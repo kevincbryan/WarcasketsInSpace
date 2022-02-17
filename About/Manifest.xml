@@ -7,7 +7,7 @@
         assessing the largely subjective importance of an update.
         For multiple releases during the same day, append another digit: 2021.3.27.1
     -->
-  <version>2022.2.16.1</version>
+  <version>2022.2.17.2</version>
 
   <!-- These links wire up the new version available alert in Mod Manager -->
   <manifestUri>https://github.com/kevincbryan/WarcasketsInSpace/blob/master/About/Manifest.xml</manifestUri>
